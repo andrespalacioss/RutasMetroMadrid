@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rutas"
+    style="@style/fondo">
+
+    <TextView
+        android:id="@+id/linea"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        style="@style/cabecera">
+
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pantalla"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/max"
+            android:gravity="center_horizontal">
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/mapa"
+        android:onClick="mapa"
+        style="@style/boton"></Button>
+
+</RelativeLayout>

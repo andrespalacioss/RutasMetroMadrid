@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Search Route Metro Madrid</string>
+    <string name="preparando">Getting your application ready...</string>
+    <string name="calculando_ruta">Checking routes...</string>
+    <string name="error_origen">Wrong start point </string>
+    <string name="error_destino">Wrong end point </string>
+    <string name="linea_metro">Metro line</string>
+    <string name="camine">Walk</string>
+    <string name="metros">meters</string>
+    <string name="titulo_dialogo">Error</string>
+    <string name="ok_dialogo">OK</string>
+    <string name="error_conexion">Without Internet Connection</string>
+    <string name="error_red">Network problems</string>
+    <string name="buscador">Search</string>
+    <string name="metro_madrid">Metro de Madrid</string>
+    <string name="itinerario">Route</string>
+    <string name="origen">Start:</string>
+    <string name="destino">End:</string>
+    <string name="buscar">Search Route</string>
+    <string name="web"><a href="http://www.pildorasinformaticas.es"></a></string>
+    <string name="a_pie">Walking</string>
+    <string name="mapa">See map</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

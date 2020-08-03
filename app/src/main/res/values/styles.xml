@@ -1,0 +1,95 @@
+<resources>
+    <!-- Base application theme. -->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+
+    <style name="fondo">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/fondo</item>
+
+    </style>
+
+    <style name="cabecera">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/min</item>
+        <item name="android:textSize">@dimen/gran</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="cajadeTexto">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textPostalAddress</item>
+        <item name="android:textColorHint">#6cdd20</item>
+        <item name="android:layout_marginBottom">@dimen/min</item>
+        <item name="android:minHeight">@dimen/med</item>
+        <item name="android:textSize">@dimen/texto</item>
+        <item name="android:background">@drawable/botones</item>
+
+    </style>
+
+    <style name="boton" parent="@style/cabecera">
+
+        <item name="android:padding">@dimen/min</item>
+        <item name="android:textSize">@dimen/texto</item>
+        <item name="android:background">@drawable/botones</item>
+
+    </style>
+
+
+
+
+    <style name="links">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/min</item>
+        <item name="android:autoLink">web</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@dimen/texto</item>
+        <item name="android:textColorLink">#FFFFFF</item>
+
+
+    </style>
+
+
+    <style name="scroll">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/max</item>
+
+    </style>
+
+
+    <style name="icono">
+
+        <item name="android:layout_width">@dimen/gran</item>
+        <item name="android:layout_height">@dimen/gran</item>
+
+    </style>
+
+    <style name="Rparcial">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/textoPeq</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+    </style>
+
+</resources>

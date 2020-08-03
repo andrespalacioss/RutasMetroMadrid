@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Buscador"
+    style="@style/fondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cabecera"
+            style="@style/cabecera"
+            android:text="@string/itinerario" />
+
+        <EditText
+            android:id="@+id/origen"
+            style="@style/cajadeTexto"
+            android:hint="@string/origen" />
+
+        <EditText
+            android:id="@+id/destino"
+            style="@style/cajadeTexto"
+            android:layout_marginBottom="200dp"
+            android:hint="@string/destino" />
+
+        <Button
+            android:id="@+id/enviar"
+            style="@style/boton"
+            android:layout_marginTop="377dp"
+            android:onClick="leeDirecciones"
+            android:text="@string/buscar" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

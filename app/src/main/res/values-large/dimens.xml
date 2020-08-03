@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="min">12dp</dimen>
+    <dimen name="med">48dp</dimen>
+    <dimen name="gran">72dp</dimen>
+    <dimen name="max">120dp</dimen>
+    <dimen name="textoPeq">32sp</dimen>
+    <dimen name="texto">48sp</dimen>
+</resources>
